@@ -1,7 +1,7 @@
 class Visitante():
     def blast(self, local):
         print("Hola soy turista")
-        local.saludado()
+        local.saludado() ####################
 
 
 class Local():
