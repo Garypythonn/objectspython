@@ -13,6 +13,7 @@ class Parrot:
 class Perico(Parrot):
     def __init__(self,name,age):
         super().__init__(name,age) # alternativamente funciona: Parrot.__init__(self,name,age)
+        # ver https://pythones.net/funcion-super-en-python-bien-explicada-ejemplos-oop/
         print("Soy el hijo periquito")
 
 
@@ -32,3 +33,4 @@ print(blu.cantar("merengue"))
 #Herencia
 ronald=Perico("ronald",2)
 print(ronald.nadar())
+
